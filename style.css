@@ -5,9 +5,10 @@ body {
     background-color: #1F2937;
 }
 
-div {
-    border: 2px solid white;
-}
+
+/* div {
+border: 2px solid white;
+} */
 
 .header {
     display: flex;
