@@ -1,8 +1,12 @@
 body {
     font-family: 'MetropolitanoRegular';
-   font-weight: normal;
-   font-style: normal; 
-   background-color: #1F2937;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1F2937;
+}
+
+div {
+    border: 2px solid white;
 }
 
 .header {
@@ -18,7 +22,7 @@ body {
     box-shadow: 0px 5px 5px teal;
 }
 
-.header img{
+.header img {
     display: flex;
     max-height: 100%;
 }
@@ -29,9 +33,10 @@ body {
     text-decoration: inherit;
 }
 
-a:hover{
+a:hover {
     color: lawngreen;
 }
+
 .header ul {
     display: flex;
     list-style: none;
@@ -40,9 +45,21 @@ a:hover{
 .header li {
     padding: 20px;
 }
+
 .intro {
+    margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
     width: 75%;
-    border: 5px solid white;
+    gap: 2%;
+}
+
+.intro img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-intro {
+    flex: 0 0 60%;
 }
