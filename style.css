@@ -7,12 +7,20 @@ body {
 
 .header {
     display: flex;
+    flex: 0 1 auto;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    height: 10%;
+    box-shadow: 0px 5px 5px teal;
+}
+
+.header img{
+    display: flex;
+    max-height: 100%;
 }
 
 .header a {
@@ -32,4 +40,9 @@ a:hover{
 .header li {
     padding: 20px;
 }
-
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    border: 5px solid white;
+}
