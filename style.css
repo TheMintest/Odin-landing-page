@@ -2,24 +2,25 @@ body {
     font-family: 'MetropolitanoRegular';
     font-weight: normal;
     font-style: normal;
-    background-color: #1F2937;
+    margin: 0%;
+    background-repeat: no-repeat;
 }
 
-
-/* div {
-border: 2px solid white;
-} */
+div {
+    border: 2px solid white;
+}
 
 .header {
     display: flex;
     flex: 0 1 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
+    padding: 0 5%;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
     height: 10%;
+    background-color: #1F2937;
     /*     box-shadow: 0px 5px 5px teal; */
 }
 
@@ -49,14 +50,32 @@ border: 2px solid white;
     padding: 20px;
 }
 
-.intro {
-    margin-top: 50px;
+.part-one {
+    background-color: #1F2937;
+    padding: 0 5%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
-    width: 75%;
+    width: 50%;
     gap: 2%;
 }
+
+
+/* .intro {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 50%;
+    gap: 2%;
+} */
 
 .intro img {
     max-width: 100%;
@@ -64,5 +83,9 @@ border: 2px solid white;
 }
 
 .img-intro {
-    flex: 0 0 60%;
+    flex: 0 0 50%;
+}
+
+.random-info {
+    background-color: white;
 }
