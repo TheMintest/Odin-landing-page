@@ -123,3 +123,14 @@ body {
     text-align: right;
     font-weight: bold;
 }
+
+.CtA {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CtA-button {
+    border: 2px solid #F9FAF8;
+}
