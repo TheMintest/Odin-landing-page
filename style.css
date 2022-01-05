@@ -42,7 +42,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    padding: 5% 5% 0;
+    padding: 5% 5%;
 }
 
 .intro-text {
@@ -82,13 +82,15 @@ body {
 .random-info {
     background-color: white;
     text-align: center;
-    padding: 5% 5% 0;
+    padding: 0 5%;
+    margin-top: 2.5%;
 }
 
 .box-container {
     display: flex;
     justify-content: center;
-    padding: 5% 10% 0;
+    /* padding: 5% 10% 0; */
+    gap: 5%;
 }
 
 .container {
@@ -106,4 +108,18 @@ body {
     padding: 20px;
     width: 100px;
     height: 100px;
+}
+
+.quote {
+    padding: 10px 25%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font: italic normal 200 36px MetropolitanoRegular;
+    /* "Font" doit posséder obligatoirement une déclaration pour "font family" et "font size"
+     les autres valuers sont optionnel*/
+}
+
+.quoted {
+    text-align: right;
+    font-weight: bold;
 }
